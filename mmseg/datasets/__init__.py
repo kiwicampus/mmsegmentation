@@ -15,6 +15,7 @@ from .hrf import HRFDataset
 from .hsi_drive import HSIDrive20Dataset
 from .isaid import iSAIDDataset
 from .isprs import ISPRSDataset
+from .kiwiscapes import KiwiScapesDataset
 from .levir import LEVIRCDDataset
 from .lip import LIPDataset
 from .loveda import LoveDADataset
@@ -61,5 +62,5 @@ __all__ = [
     'MapillaryDataset_v2', 'Albu', 'LEVIRCDDataset',
     'LoadMultipleRSImageFromFile', 'LoadSingleRSImageFromFile',
     'ConcatCDInput', 'BaseCDDataset', 'DSDLSegDataset', 'BDD100KDataset',
-    'NYUDataset', 'HSIDrive20Dataset'
+    'NYUDataset', 'HSIDrive20Dataset', 'KiwiScapesDataset'
 ]
